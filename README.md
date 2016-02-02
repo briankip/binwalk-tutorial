@@ -4,7 +4,7 @@ Binwalk is a simple linux tool for analysing binary files for embeded files and 
 
 ### Installation
 
-On kali linux, binwalk is already installed. On ubuntu you can do apt-get install binwalk or you can go to https://github.com/devttys0/binwalk and follow the instructions.
+On kali linux, binwalk is already installed. On ubuntu you can do apt-get install binwalk or you can go to https://github.com/devttys0/binwalk and follow the instructions. Sample binary file can be found [here](http://www.tp-link.com/resources/software/TL-WR841N_V8_130506.zip), it's a router firmware image.
 
 ### Usage
 
