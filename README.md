@@ -1,6 +1,6 @@
 ## Binwalk
 
-Binwalk is a simple linux tool for analysing binary files for embeded files and executable code. It is mostly used to extract the content of firmware images. 
+Binwalk is a simple linux tool for analysing binary files for embedded files and executable code. It is mostly used to extract the content of firmware images. 
 
 ### Installation
 
@@ -13,11 +13,11 @@ the command man binwalk. The manual pages offers an overview of the commands sup
 
 ![alt text](http://imgur.com/SIuVzBQ.jpg "Binwalk output")
 
-Issuing `binwalk 'filename.bin'` results in binwalk showing the contents of the binary files, and the offset at which the file begins in hexadecimal and decimal. THe offset is useful if you want to extract the contents of the file with a toll like `dd`.
+Issuing `binwalk 'filename.bin'` results in binwalk showing the contents of the binary files, and the offset at which the file begins in hexadecimal and decimal. The offset is useful if you want to extract the contents of the file with a tool like `dd`.
 
 Binwalk can also automatically extract all the files it finds within the firmware image, this is possible with the `-e` switch. Binwalk can also search for string in the binary files with the `-S` option. The `-M matryoshka` option instructs binwalk to recursively scan extracted files, the matroshka is a reference to Russian dolls that have other dolls inside them. 
 
 ![alt text](http://imgur.com/ZXrjxuU.jpg "Matryoshka doll")
 
 ### Conclusion
-binwalk is a important tool for a forensic analyst. Coupled with other tools it can be a invaluable tool in an investigation. 
+binwalk is an important tool for a forensic analyst. Coupled with other tools it can be an invaluable tool in an investigation. 
